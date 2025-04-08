@@ -6,16 +6,6 @@ import { motion } from 'framer-motion';
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white relative overflow-hidden">
-      {/* Subtle fancy black gradient background */}
-      <div 
-        className="absolute inset-0 bg-gradient-to-br from-gray-950 via-black to-gray-900"
-      />
-      
-      {/* Overlay with additional gradient */}
-      <div
-        className="absolute inset-0 bg-gradient-to-tl from-black/80 via-gray-900/40 to-gray-800/20"
-      />
-
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen p-4">
         {/* Logo container with animation */}
         <motion.div
@@ -53,9 +43,9 @@ export default function Home() {
           animate={{ opacity: 1, scale: 1 }}
           whileHover={{ 
             scale: 1.03, 
-            backgroundColor: '#ffffff', 
+            backgroundColor: '#000000', 
             color: '#000000',
-            boxShadow: '0 0 15px rgba(255,255,255,0.6)',
+            boxShadow: '0 0 15px rgba(255,255,255,1)',
             y: -1
           }}
           whileTap={{ scale: 0.99, y: 0 }}
