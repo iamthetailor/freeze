@@ -43,7 +43,7 @@ export default function Home() {
           animate={{ opacity: 1, scale: 1 }}
           whileHover={{ 
             scale: 1.03, 
-            backgroundColor: '#000000', 
+            backgroundColor: '#ffffff', 
             color: '#000000',
             boxShadow: '0 0 15px rgba(255,255,255,1)',
             y: -1
